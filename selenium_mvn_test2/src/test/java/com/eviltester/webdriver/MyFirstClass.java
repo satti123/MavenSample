@@ -10,10 +10,12 @@ public class MyFirstClass {
 	public void startWebDriver() {
 		WebDriver driver = new FirefoxDriver();
 		driver.navigate().to("https://www.facebook.com/");
+		System.out.println("my first pgm");
 		String x = driver.getCurrentUrl();
 		System.out.println(x);
 		driver.close();
 		driver.quit();
+		
 	}
 
 }
